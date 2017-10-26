@@ -10,5 +10,5 @@ AddType text/css .css .css.gz
 
 <IfModule mod_expires.c>
 ExpiresActive on
-ExpiresByType text/css "access plus 2 months"
+ExpiresByType text/css "access plus 5 seconds"
 </IfModule>
