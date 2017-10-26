@@ -19,7 +19,7 @@ Current state of the art is [`filamentgroup/loadCSS`](https://github.com/filamen
 	* [Demo](https://www.zachleat.com/async-css-loading/link-body-end.html)
 	* _blocks in Chrome, Chrome for Android, Mobile Safari_
 
-_Related Blink issue_: [#481122](https://bugs.chromium.org/p/chromium/issues/detail?id=481122) Allow the page to render before `<link>` tags in body
+_Related Chromium issue_: [#481122](https://bugs.chromium.org/p/chromium/issues/detail?id=481122) Allow the page to render before `<link>` tags in body
 
 ## Attribute toggle using JavaScript
 
