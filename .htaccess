@@ -1,0 +1,14 @@
+<IfModule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/css
+</IfModule>
+
+AddDefaultCharset utf-8
+
+<IfModule mod_mime.c>
+AddType text/css .css .css.gz
+</IfModule>
+
+<IfModule mod_expires.c>
+ExpiresActive on
+ExpiresByType text/css "access plus 2 months"
+</IfModule>
