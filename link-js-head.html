@@ -8,7 +8,7 @@
 			(function() {
 				var req = document.createElement("link");
 				req.rel = "stylesheet";
-				req.href = "styles.php?t=2";
+				req.href = "styles.php";
 				// TODO use insertBefore or CTM to workaround IE (loadCSS says IE crashes when you append to header before header is ready)
 				document.getElementsByTagName("head")[0].appendChild(req);
 			})();
